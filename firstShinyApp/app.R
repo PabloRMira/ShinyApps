@@ -40,7 +40,7 @@ df2 <- data.frame(x=x2, y=y, var="True\n density")
 ui <- fluidPage(
   
   # App title
-  titlePanel("My super mega fancy Shiny App"),
+  titlePanel("My first Shiny App"),
   
   # Sidebar layout
   sidebarLayout(
@@ -80,7 +80,7 @@ ui <- fluidPage(
       # Output: Density plot
       plotOutput(outputId = "densPlot"),
       br(),
-      h4("This is a mega nice super fancy Shiny App!")
+      h4("This is my first Shiny App!")
   
     )
   )
